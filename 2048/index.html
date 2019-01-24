@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=http://2048game.com/ -->
+<html class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>2048 Game</title>
+
+<link href="files/main.css" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="files/favicon.ico">
+
+<style>
+  * {
+    font-family: "Google Sans";
+  }
+  .score-container:after {
+    content: "Score";
+  }
+
+  .best-container:after {
+    content: "Best";
+  }
+</style>
+
+<meta property="og:image" content="/meta/apple-touch-icon.png">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+<style type="text/css">
+::selection {
+    background:rgba(0, 120, 215, 0.15); 
+    color:rgb(0, 120, 215);
+}
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	background-color: rgba(0,0,0,0.0);
+	border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+	border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 50px;
+	background-color: rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb:active {
+	background-color: rgba(0,0,0,0.4);
+}</style>
+<body>
+<div class="mobile-top"></div>
+<div class="container">
+  <div class="heading">
+  <h1 class="title">2048</h1>
+  <div class="scores-container">
+    <div class="score-container">0</div>
+    <div class="best-container">0</div>
+  </div>
+</div>
+<div class="game-intro">
+  <a class="restart-button">New Game</a>
+  <h2 class="subtitle">Play 2048 Game Online</h2>
+  <div class="above-game">
+    <p>Join the numbers and get to the <strong>2048 tile!</strong></p>
+  </div>
+</div>
+
+<div class="game-container">
+  <div class="game-message">
+    <p></p>
+    <div class="lower">
+      <a class="keep-playing-button">Keep playing</a>
+      <a class="retry-button">Try again</a>
+      <div class="score-sharing">
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+    </div>
+    <div class="grid-row">
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+    </div>
+    <div class="grid-row">
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+    </div>
+    <div class="grid-row">
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+      <div class="grid-cell"></div>
+    </div>
+  </div>
+
+  <div class="tile-container"><div class="tile tile-2 tile-position-3-1 tile-new"><div class="tile-inner">2</div></div><div class="tile tile-2 tile-position-4-2 tile-new"><div class="tile-inner">2</div></div></div>
+</div>
+
+<br>
+
+</div>
+<div class="clearfix"></div>
+</div>
+
+</div>
+
+<script src="files/all.js"></script>
